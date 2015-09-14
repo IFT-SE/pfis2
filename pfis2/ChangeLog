@@ -1,0 +1,22 @@
+2010-05-06  Scott Fleming  <sdf@eecs.oregonstate.edu>
+
+	* VERSION: 1.0.2
+
+	* pfis2-participantK.py: Fixed a bug that caused goal text to be
+	processed incorrectly. The problem stemmed from a type error.
+	Added timestamps to the results output.
+	Refactored code to use dicts instead of arrays (helps
+	readability) and to adhere to the PEP 8 coding standard.
+
+2010-04-20  Christopher Bogart  <bogart@eecs.oregonstate.edu>
+
+	* VERSION: 1.0.1
+
+	* pfis2-participantK.py: Fixed handling of inner classes.
+
+2010-04-01  Christopher Bogart  <bogart@eecs.oregonstate.edu>
+
+	* VERSION: 1.0.0
+
+	* pfis2-participantK.py: Updated the script to work with
+	ParticipantK's data.

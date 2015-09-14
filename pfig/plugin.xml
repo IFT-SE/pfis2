@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="info.programmerflow.remote.Startup"></startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="info.programmerflow.remote.preferences.PFISPreferencePage"
+            id="info.programmerflow.remote.preferences.PFISPreferencePage"
+            name="PFIS Remote Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="info.programmerflow.remote.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>
